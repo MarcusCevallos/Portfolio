@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    color: #000000;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+
+  #bannerimage {
+    width: 100%;
+    background-image: url(https://www.e4k.co/wp-content/uploads/2019/07/Software-Development-Resized.jpeg);
+    height: 150px;
+    background-color: purple;
+    background-position: center;
+  }
+
+  .header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.header div ul {
+    list-style-type: none;
+}
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
